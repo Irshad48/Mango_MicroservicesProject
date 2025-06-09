@@ -22,5 +22,15 @@ namespace Mango.Web.Controllers
             }
             return View(list);
         }
+        public async Task<IActionResult> CouponCreate()
+        {
+            //List<CouponDto>? list = new();
+            //ResponseDto? response = await _couponService.GetAllCouponsAsync();
+            //if (response != null && response.IsSuccess)
+            //{
+            //    list = JsonConvert.DeserializeObject<List<CouponDto>>(Convert.ToString(response.Result));
+            //}
+            return View();
+        }
     }
 }
