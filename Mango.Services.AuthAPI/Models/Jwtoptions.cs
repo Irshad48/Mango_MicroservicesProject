@@ -1,6 +1,6 @@
 ﻿namespace Mango.Services.AuthAPI.Models
 {
-    public class Jwtoptions
+    public class JwtOptions
     {
         public string Secret { get; set; } = string.Empty;
         public string Issuer { get; set; } = string.Empty;

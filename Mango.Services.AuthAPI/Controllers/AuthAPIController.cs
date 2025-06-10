@@ -27,7 +27,7 @@ namespace Mango.Services.AuthAPI.Controllers
                 _responseDto.Message = errorMessage;
                 return BadRequest(_responseDto);
             }
-            return Ok();
+            return Ok(_responseDto);
         }
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequestDto model)
@@ -40,7 +40,7 @@ namespace Mango.Services.AuthAPI.Controllers
                 return BadRequest(_responseDto);
             }
             _responseDto.Result = loginResponse;
-            return Ok();
+            return Ok(_responseDto);
         }
 
     }
