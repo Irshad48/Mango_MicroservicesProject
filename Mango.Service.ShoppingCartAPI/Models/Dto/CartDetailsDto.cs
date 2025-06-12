@@ -2,7 +2,7 @@
 using System.Reflection.PortableExecutable;
 using Mango.Service.ShoppingCartAPI.Models;
 
-namespace Mango.Services.ProductAPI.Models.Dto
+namespace Mango.Services.ShoppingCartAPI.Models.Dto
 {
     public class CartDetailsDto
     {

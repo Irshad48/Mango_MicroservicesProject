@@ -1,5 +1,5 @@
 ﻿
-namespace Mango.Services.ProductAPI.Models.Dto
+namespace Mango.Services.ShoppingCartAPI.Models.Dto
 {
     public class CartHeaderDto
     {
