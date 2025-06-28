@@ -28,7 +28,7 @@ namespace Mango.Service.ShoppingCartAPI.Controllers
             _couponService = couponService;
         }
 
-        [HttpPost("Getcart/{userId}")]
+        [HttpPost("GetCart/{userId}")]
         public async Task<ResponseDto> GetCart(string userId)
         {
             try

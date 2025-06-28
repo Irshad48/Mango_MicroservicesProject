@@ -28,7 +28,7 @@ namespace Mango.Web.Service
         {
             return await _baseService.sendAsynch(new RequestDto()
             {
-                ApiType = SD.ApiType.GET,
+                ApiType = SD.ApiType.POST,
                 url = SD.ShoppingCartAPIBase + "/api/cart/GetCart/"+ userId
 
             });
